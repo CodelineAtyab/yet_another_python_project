@@ -31,6 +31,8 @@ elif operation == "fac":
         answer = answer * limit
         limit = limit - 1
     result = answer
+elif operation == "**":
+    result = int(num_1) ** int(num_2)  # Storing Subtraction Result
 
 # Output
 print("Result is:", result)
