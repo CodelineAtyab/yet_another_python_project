@@ -13,7 +13,7 @@ num_1 = input("Enter 1st Number: ")
 num_2 = input("Enter 2nd Number: ")
 
 # Process
-
+result = int(num_1) - int(num_2)  # Storing Subtraction Result
 
 # Output
 print("Result is:", result)
