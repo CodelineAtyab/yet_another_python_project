@@ -11,7 +11,7 @@ result = 0
 
 # Input
 num_1 = input("Enter 1st Number: ")
-operation = input("Enter the Operator")
+operation = input("Enter the Operator: ")
 num_2 = input("Enter 2nd Number: ")
 
 # Process
@@ -22,6 +22,8 @@ elif operation == "-":
     result = int(num_1) - int(num_2)  # Storing Subtraction Result
 elif operation == "*":
     result = int(num_1) * int(num_2)  # Storing Subtraction Result
+elif operation == "/":
+    result = int(num_1) / int(num_2)  # Storing Subtraction Result
 
 # Output
 print("Result is:", result)
