@@ -24,6 +24,8 @@ elif operation == "*":
     result = int(num_1) * int(num_2)  # Storing Subtraction Result
 elif operation == "/":
     result = int(num_1) / int(num_2)  # Storing Subtraction Result
+elif operation == "**":
+    result = int(num_1) ** int(num_2)  # Storing Subtraction Result
 
 # Output
 print("Result is:", result)
