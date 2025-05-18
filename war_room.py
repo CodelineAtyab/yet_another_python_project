@@ -24,6 +24,13 @@ elif operation == "*":
     result = int(num_1) * int(num_2)  # Storing Subtraction Result
 elif operation == "/":
     result = int(num_1) / int(num_2)  # Storing Subtraction Result
+elif operation == "fac":
+    answer = 1
+    limit = int(num_1)
+    while limit > 0:
+        answer = answer * limit
+        limit = limit - 1
+    result = answer
 
 # Output
 print("Result is:", result)
